@@ -39,11 +39,17 @@
     display: flex;
     justify-content: space-around;
 }
+.todo-main-container h3{
+	border-bottom:solid white 2px;
+	padding-bottom:1.3vh;
+	font-size: 1.5em;
+}
 .progress-box {
-    width:33%;
+    width:100%;
     display: inline-block;
     text-align: center;
     color: #fff;
+	padding-top:2.5vh;;
 }
 
 #newList h3 {
@@ -122,6 +128,9 @@
 .form-input:focus{
     outline: none;
 }
+.form-input {
+	text-align: center;
+}
 
 .todo-footer {
     width: 100%;
@@ -151,7 +160,7 @@
     border: 1px solid #F3524A;
     background: none;
     font-size: 14px;
-    width: 60%;
+    width: 100%;
     color: #fff;
 
 
@@ -172,6 +181,7 @@
     margin-top: 15px;
 }
 
-.list-group-item {
-    color: #fff;
+.list-group-item h3{
+	font-size: 1.36em;
+    color: rgb(87, 142, 82);
 }
